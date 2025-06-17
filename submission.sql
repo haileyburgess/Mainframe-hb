@@ -16,4 +16,11 @@ SELECT * FROM emptystack_messages WHERE body ILIKE '%project%';
 
 SELECT * from emptystack_accounts WHERE username = 'your-boss-99';
 --  your-boss-99 | notagaincarter | Skylar     | Singer
+-- credentials to run mainframe -stop 
 
+SELECT * from emptystack_projects WHERE code ILIKE '%TAXI%';
+--     id    | code 
+----------+------
+--  DczE0v2b | TAXI
+
+-- Project shutdown complete. 
